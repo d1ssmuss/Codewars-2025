@@ -19,8 +19,7 @@ def magic_sum(arr):
     :param arr:
     :return:
     """
-    a = sum([i for i in arr if i % 2 != 0 and '3' in str(i)])
-    return a
+    return sum([i for i in arr if i % 2 != 0 and '3' in str(i)])
 
 # Tests
 # print(magic_sum([30, 34, 330]))
