@@ -10,5 +10,3 @@ def sequence_sum(begin_number, end_number, step):
 
 
 print(sequence_sum(2,6,2))
-print(sequence_sum(13,15,2))
-print(sequence_sum(-1,20,2))
